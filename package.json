@@ -1,0 +1,20 @@
+{
+  "name": "backend-assignment",
+  "version": "1.0.0",
+  "description": "Backend api to fetch latest football videos from youtube.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Jha",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5",
+    "node-schedule": "^2.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
