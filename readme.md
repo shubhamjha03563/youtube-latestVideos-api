@@ -6,7 +6,7 @@
 
 > Continuously calls the youtube-api in background to fetch latest videos. (This may exhaust the api quota, so storing multiple api-keys in database is recommended)
  
-> Automated use of next API_KEY from database if current quota exhausted.
+> Automated use of next API_KEY from database if current quota gets exhausted.
 
 > Key storage format in database -
 
