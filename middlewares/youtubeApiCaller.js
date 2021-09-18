@@ -23,7 +23,7 @@ const youtubeApiCaller = asyncHandler(async () => {
   }
 
   let youtubeResponse = await axios.get(
-    `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=football&type=video&order=date&key=${apiKey}`
+    `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=${process.env.YOUTUBE_SEARCH_QUERY}&type=video&order=date&key=${apiKey}`
   ); // array of all videos-info
 
   let video, videoData;
