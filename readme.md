@@ -1,6 +1,7 @@
 # Youtube Latest Videos API
 
 > Backend API for fetching the latest videos for a predefined search query and save them in database.
+
 > Has flexible search option for finding videos saved in database.
 
 ## Install Dependencies
