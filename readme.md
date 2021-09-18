@@ -4,6 +4,8 @@
 
 > Has flexible search option for finding videos saved in database.
 
+> Continuously calls the youtube-api in background to fetch latest videos. (This may exhaust the api quota, so storing multiple api-keys in database is recommended)
+ 
 > Automated use of next API_KEY from database if current quota exhausted.
 
 > Key storage format in database -
@@ -16,7 +18,7 @@
 
   apiKey: 'jdjfkbdhdk',
 
-  used: 35,
+  used: 0,
 
 }
 
@@ -30,7 +32,11 @@ npm install
 ## Run App
 
 ```
-Open vars.env and enter your credentials...(MONGO_URI, API_KEY)
+Open vars.env and enter your credentials...(MONGO_URI)
+```
+
+```
+Store the api_keys in database (follow the format given above)
 ```
 
 ```
