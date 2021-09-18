@@ -1,6 +1,7 @@
 # Youtube Latest Videos API
 
-> Backend API for fetching the latest videos for a predefined search query.
+> Backend API for fetching the latest videos for a predefined search query and save them in database.
+> Has flexible search option for finding videos saved in database.
 
 ## Install Dependencies
 
@@ -9,6 +10,10 @@ npm install
 ```
 
 ## Run App
+
+```
+Open vars.env and enter your credentials...(MONGO_URI, API_KEY)
+```
 
 ```
 nodemon app
