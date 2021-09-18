@@ -32,7 +32,7 @@ npm install
 ## Run App
 
 ```
-Open vars.env and enter your credentials...(MONGO_URI)
+Open vars.env and enter your credentials...(MONGO_URI, YOUTUBE_SEARCH_QUERY)
 ```
 
 ```
