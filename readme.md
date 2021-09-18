@@ -4,6 +4,23 @@
 
 > Has flexible search option for finding videos saved in database.
 
+> Automated use of next API_KEY from database if current quota exhausted.
+
+> Key storage format in database -
+
+{
+
+  _id: 'jdurn73388',
+
+  keyNumber: 1,
+
+  apiKey: 'jdjfkbdhdk',
+
+  used: 35,
+
+}
+
+
 ## Install Dependencies
 
 ```
